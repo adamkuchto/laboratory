@@ -5,7 +5,7 @@ using namespace std;
 void menu(short *input)
 {
     cout << endl
-         << "\033[1;32mCo mam obliczyć?\033[0m\n";
+         << "\033[1;32mProszę wybrać opcję:\033[0m\n";
     cout << "\t1. Pole koła" << endl;
     cout << "\t2. Obwód koła" << endl;
     cout << "\t3. Pole oraz obwód koła" << endl;
