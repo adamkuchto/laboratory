@@ -16,6 +16,10 @@ oblicz.o: oblicz.cpp
 file.o: file.cpp
 	$(CC) -c file.cpp
 
+docs:
+	@doxygen
+	@open html/index.html
+
 clean:
 	rm *.o main file.txt
 
