@@ -4,11 +4,15 @@ using namespace std;
 
 errors File::writeToFile(string path, float* result, string text)
 {
+    chrono::time_point<chrono::system_clock>actualTime;
     ofstream kolo;
     kolo.open(path, ios::app);
     if (kolo.good())
     {
-        kolo << text << " " << *result << "\n";
+        actualTime = chrono::system_clock::now();
+        time_t now = chrono::system_clock::to_time_t(actualTime);
+        kolo << ctime(&now);
+        kolo << "\t" << text << " " << *result << endl << endl;
     }
     else
     {
