@@ -8,7 +8,7 @@ enum errors{
     WRITE_OK = 0,
     READ_OK,
     CLEAR_OK,
-    OPEN_FILE_ERRROR,
+    OPEN_FILE_ERROR,
 };
 
 class File

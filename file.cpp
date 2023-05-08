@@ -16,7 +16,7 @@ errors File::writeToFile(string path, float* result, string text)
     }
     else
     {
-        return OPEN_FILE_ERRROR;
+        return OPEN_FILE_ERROR;
     }
     kolo.close();
     return WRITE_OK;
@@ -37,7 +37,7 @@ errors File::readFromFile(string path)
     }
     else
     {
-        return OPEN_FILE_ERRROR;
+        return OPEN_FILE_ERROR;
     }
     read.close();
     return READ_OK;
@@ -50,7 +50,7 @@ errors File::clearFile(string path)
     if (clear.good())
         cout << "Zawartość pliku " << path << " została wyczyszczona." << endl;
     else
-        return OPEN_FILE_ERRROR;
+        return OPEN_FILE_ERROR;
 
     clear.close();
     return CLEAR_OK;
