@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Laborki", "index.html", [
+    [ "Zadania do wykonania na zajęcia z programowania.", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

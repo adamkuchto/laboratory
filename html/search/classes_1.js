@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['oblicz_8',['Oblicz',['../classOblicz.html',1,'']]]
+  ['oblicz_9',['Oblicz',['../classOblicz.html',1,'']]]
 ];

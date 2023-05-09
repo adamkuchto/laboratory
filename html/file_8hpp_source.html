@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('file_8hpp_source.html',''); initResiza
 <div class="contents">
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define PATH &quot;file.txt&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('file_8hpp_source.html',''); initResiza
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    WRITE_OK = 0,</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    READ_OK,</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    CLEAR_OK,</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    OPEN_FILE_ERRROR,</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    OPEN_FILE_ERROR,</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;};</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classFile.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classFile.html">File</a></div>
@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('file_8hpp_source.html',''); initResiza
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        errors <a class="code" href="classFile.html#a20a87840cfb100a88da30e7137cd51d3">clearFile</a>(std::string path);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
 <div class="ttc" id="aclassFile_html"><div class="ttname"><a href="classFile.html">File</a></div><div class="ttdef"><b>Definition:</b> file.hpp:15</div></div>
-<div class="ttc" id="aclassFile_html_a20a87840cfb100a88da30e7137cd51d3"><div class="ttname"><a href="classFile.html#a20a87840cfb100a88da30e7137cd51d3">File::clearFile</a></div><div class="ttdeci">errors clearFile(std::string path)</div><div class="ttdef"><b>Definition:</b> file.cpp:42</div></div>
+<div class="ttc" id="aclassFile_html_a20a87840cfb100a88da30e7137cd51d3"><div class="ttname"><a href="classFile.html#a20a87840cfb100a88da30e7137cd51d3">File::clearFile</a></div><div class="ttdeci">errors clearFile(std::string path)</div><div class="ttdef"><b>Definition:</b> file.cpp:46</div></div>
 <div class="ttc" id="aclassFile_html_a85437d59acb75cd96c61e6f8ba62d121"><div class="ttname"><a href="classFile.html#a85437d59acb75cd96c61e6f8ba62d121">File::writeToFile</a></div><div class="ttdeci">errors writeToFile(std::string path, float *result, std::string text)</div><div class="ttdef"><b>Definition:</b> file.cpp:5</div></div>
-<div class="ttc" id="aclassFile_html_ac1df3a132920f986bd15601cf78c933d"><div class="ttname"><a href="classFile.html#ac1df3a132920f986bd15601cf78c933d">File::readFromFile</a></div><div class="ttdeci">errors readFromFile(std::string path)</div><div class="ttdef"><b>Definition:</b> file.cpp:21</div></div>
+<div class="ttc" id="aclassFile_html_ac1df3a132920f986bd15601cf78c933d"><div class="ttname"><a href="classFile.html#ac1df3a132920f986bd15601cf78c933d">File::readFromFile</a></div><div class="ttdeci">errors readFromFile(std::string path)</div><div class="ttdef"><b>Definition:</b> file.cpp:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
