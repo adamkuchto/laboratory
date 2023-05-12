@@ -74,6 +74,7 @@ void* mainProgram(void* args)
     }
     ptrShort = nullptr;
     ptrFloat = nullptr;
+    return NULL;
 }
 
 void threads()
